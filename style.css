@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    width: 300px;
+    color: white;
+    background-color: black;
+    margin-bottom: 50px;
+    height: 500px;
+}
+button{
+    padding: 16px 14px;
+    width: 100px;
+    background: #607D8B;
+    color: white;
+}
+.form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#result{
+    display: none;
+}
+textarea{
+    background-color: black;
+    color: white;
+}
+textarea::-webkit-scrollbar {
+    width: 1px;
+}
