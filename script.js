@@ -10,7 +10,7 @@ async function sendText() {
         method: 'POST',
         headers: {
             'content-type': 'application/x-www-form-urlencoded',
-            'X-RapidAPI-Key': 'fd4f21fe50msh1ef72472e739f65p1fae9ajsn6d6ea529e9ae',
+            'X-RapidAPI-Key': process.env.ApiKey,
             'X-RapidAPI-Host': 'ai-based-spelling-and-grammar-correction.p.rapidapi.com'
         },
         body: new URLSearchParams({
